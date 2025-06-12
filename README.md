@@ -14,7 +14,7 @@ Sage is an advanced AI assistant designed to understand, learn, and adapt to you
 ### Voice I/O (Optional)
 - **Speech-to-Text (STT)**: Capture voice input using SpeechRecognition and Google Web Speech API
 - **Text-to-Speech (TTS)**: Natural, high-quality speech via Microsoft Edge TTS (edge-tts)
-- **Configurable**: Enable voice modes with the `USE_VOICE` environment variable
+- **Configurable**: Voice mode is toggled in `config.py`
 
 ### Interface Options
 - **Command Line**: Text-based interaction through terminal
