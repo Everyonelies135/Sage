@@ -1,0 +1,24 @@
+# Core AI & API
+openai
+
+# Voice I/O dependencies
+SpeechRecognition
+# On Windows, install PyAudio via pipwin to avoid build errors
+pyaudio
+edge-tts
+playsound
+
+# Scheduling
+schedule
+
+# Utilities
+python-dotenv
+
+# Semantic Search
+sentence-transformers
+
+# Optional (for future enhancements)
+colorama
+
+# GUI
+PyQt5

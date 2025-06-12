@@ -1,0 +1,6 @@
+# Development and Testing dependencies for Sage
+pytest==8.1.1
+pytest-cov==5.0.0
+mypy==1.9.0
+black==24.3.0
+flake8==7.0.0
