@@ -1,3 +1,4 @@
+codex/add-.gitignore-rules-and-clean-history
 __pycache__/
 *.pyc
 logs/

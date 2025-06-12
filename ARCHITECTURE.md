@@ -185,7 +185,7 @@ Sage is designed with several extension points for future development:
 
 ## Security Notes
 
-- API keys are stored in environment variables (keys.env)
+- API keys are stored in environment variables (keys.env - see keys.example.env)
 - Personal data remains local by default
 - No automatic cloud syncing of conversation history
 - Consider implementing encryption for sensitive memory data in future versions
