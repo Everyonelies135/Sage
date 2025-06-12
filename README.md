@@ -39,7 +39,7 @@ Sage is an advanced AI assistant designed to understand, learn, and adapt to you
 sage/
 ├── bootstrap.py          # Initial setup and configuration
 ├── config.py             # User preferences and system settings
-├── keys.env              # API keys and sensitive configuration (gitignored)
+├── keys.example.env              # Example API key file (copy to keys.env)
 ├── launch.py             # Alternative entry point with additional options
 ├── main.py               # Primary application entry point
 ├── requirements.txt      # Production dependencies
@@ -120,7 +120,7 @@ sage/
       pip install <path_to_downloaded_wheel>.whl
       ```
 
-3. Create a keys.env file with your API keys:
+3. Copy keys.example.env to keys.env and add your API keys:
    ```
    OPENAI_API_KEY=your_openai_key_here
    ELEVENLABS_API_KEY=your_elevenlabs_key_here
