@@ -6,6 +6,7 @@ import subprocess
 import time
 import threading
 import signal
+import asyncio
 from bootstrap import needs_bootstrap, bootstrap
 from pathlib import Path
 
@@ -70,7 +71,7 @@ def run_cli() -> None:
         
         # Run the main function in the current process
         print("🚀 Starting Sage CLI...")
-        main()
+        asyncio.run(main())
         
         # After main exits, ensure proper cleanup
         print("\n🔚 Sage execution completed, cleaning up...")
