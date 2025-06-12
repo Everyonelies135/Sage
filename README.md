@@ -172,4 +172,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - OpenAI for AI capabilities
 - Microsoft Edge TTS for voice generation
-- The PyQt team for GUI components
+- The PyQt team for GUI components.
